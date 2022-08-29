@@ -21,6 +21,8 @@ import java.awt.FlowLayout;
  {
  super("Testing JTextField and JPasswordField");
  setLayout(new FlowLayout());
+ 
+ 
 textField1 = new JTextField(10);
 add(textField1);
 textField2 = new JTextField("Enter text here");
